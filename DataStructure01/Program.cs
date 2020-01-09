@@ -133,7 +133,13 @@ namespace DataStructure01
 				Console.WriteLine("[NOOOOOOO.....]");
 
 
+//CHECK HERE
+var p0 = foreachResult.Where(a=>Priorty == 0);
 
+foreach (var item in p0 )
+			{
+				Console.WriteLine($"Priorty: {item.Priorty} and Value: {item.Value}");
+			}
 
 			Console.ReadKey();
 		}
